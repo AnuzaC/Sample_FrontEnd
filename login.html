@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<h1>LogIn Form</h1>
+
+<form action="" method="post" 
+			onsubmit="return validateForm()" name="loginForm">
+	<fieldset>
+		<fieldset>
+			<legend>Login Information</legend>
+			<div class="group">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" placeholder="Enter username" value="ram">
+				<span id="err_username"></span>
+			</div>
+			<div class="group">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" placeholder="Enter password">
+			</div>
+		</fieldset>
+		<div class="group">
+			<button type="submit">LogIn</button>
+			<button type="reset">Cancel</button>
+		</div>
+	</fieldset>
+</form>
+<script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>

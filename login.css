@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #D5d5d6;
+}
+fieldset{
+	border:1px solid #f5a;
+	margin-top: 20px;
+}
+
+legend{
+	border:1px solid #5a5;
+}
+
+ .group{
+ 	margin-bottom: 10px;
+ 	border:1px solid #fa2;
+ 	padding: 10px;	
+ }
+
+.group label{
+	width: 100px;
+	display: inline-block;
+}
+
+.group input,select{
+	width: 80%;
+	height: 20px;
+}
+
+.group input[type=radio],input[type=checkbox]{
+	width: 5%;
+}
+
+button[type=submit]{
+	border:none;
+	background-color: #5a5;
+	padding: 10px;
+	color: #fff;
+}
+
+button[type=reset]{
+	border:none;
+	background-color: #f50	;
+	padding: 10px;
+	color: #fff;
+}
+
